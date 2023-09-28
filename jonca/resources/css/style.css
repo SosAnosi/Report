@@ -1,0 +1,67 @@
+#sidebar{
+    display: flex !important;
+}
+.bm-burger-button {
+    height: 20px !important;
+    width: 30px !important;
+     left: 10px;
+    top: 10px; 
+}
+
+.bm-menu {
+    position:absolute;
+}
+.card-header p{
+    margin-left: 30px;
+}
+.bm-item-list{
+    color:#b8adad00 !important;
+    margin-left: 0;
+}
+.bm-item-list > *{
+    padding: 0;
+}
+.bm-item-list nav ul{
+    padding-left: 0;
+}
+.bm-item-list ul{
+    margin-top: 20px;
+}
+.bm-item-list ul li{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.link span{
+    margin-left: 10px;
+}
+.link{
+    text-decoration: none;
+}
+.font{
+    color: var(--bs-link-color);
+    width: 16px;
+}
+.nav ul .tete{
+    color: #FFFF;
+    text-align: end;
+    text-shadow: 1px 1px 2px pink;
+}
+.nav{
+    transition-duration: 2s;
+    transition-property: margin-right, color;
+}
+
+.btn-param{
+    float: right;
+    margin-top: -60px;
+    margin-right: 10px;  
+}
+
+.btn-print{
+    float: right;
+    margin-top: -60px;
+    margin-right: 40px;
+}
+
+ 
+

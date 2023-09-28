@@ -1,0 +1,22 @@
+@media print{
+    body{
+        visibility: hidden; 
+   } 
+    hr{
+       visibility: hidden;
+   } 
+   #pdf-content{
+       visibility: visible;
+       left: 0;
+       top: 0;
+       margin: 0;
+       padding: 0;
+   } 
+  #pdf-content hr{
+       page-break-after: always; 
+   }
+.recherche{
+    visibility: hidden;
+}
+
+}
